@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 0;
+}
+
+div {
+  background-color: rgb(161, 141, 109);
+  margin: 0;
+  border: 20px ridge #fbf9d1;
+  /* outline: solid 10px orange; */
+  margin: 0px;
+  font-size: 80px;
+  text-align: center;
+  color: rgb(61, 59, 59);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  border: inset #b6b6ac 7px;
+  border-bottom: hidden;
+  margin: 18px;
+  background-color: beige;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+p {
+  margin: 18px;
+  font-size: 30px;
+  border: inset #b6b6ac 7px;
+  /* border-top: hidden; */
+  border-bottom: hidden;
+  text-align: justify;
+  background-color: beige;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li {
+  margin: 25px;
+  font-size: 25px;
+  list-style-image: url("../../assets/img/icons8-pianeta-50.png");
+  padding: 10px;
+}
+
+div1 {
+  background-color: beige;
+}
+
+hr {
+  height: 5px;
+  background-color: black;
+}
+
+#card-container {
+  border: 3px ridge rgb(142, 142, 13);
+  /* width: 300px; */
+  width: calc(25% - 20px);
+  display: inline-block;
+  margin: 10px;
+}
+
+h2 {
+  background-color: rgba(22, 11, 11, 0.425);
+  margin: 70px;
+  padding: 5px;
+  color: white;
+}
+
+#card-body {
+  background-color: yellow;
+  color: rgb(75, 75, 4);
+  padding: 10px;
+  font-size: 20px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+#card-footer {
+  background-color: rgb(8, 8, 150);
+  padding: 5px;
+  color: white;
+  font-size: larger;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  /* background-color: #222; */
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  padding: 0;
+  border: 0;
+}
